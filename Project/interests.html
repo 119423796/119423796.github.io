@@ -1,0 +1,145 @@
+<!Doctype html>
+<html>
+    
+    <head>
+        <title>Interests</title>
+        <link rel="stylesheet" type="text/css" href="CSS/interests.css">
+
+
+        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#container {
+  overflow: hidden;
+  width: 370px;
+  height: 145px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top:150px;
+}
+
+#imgs {
+  display: block;
+  padding: 0;
+  width: 200%;
+}
+
+#imgs li {
+  padding-right: 10px;
+  display: inline-block;
+ *display:inline;
+}
+
+#imgs img {
+  width: 160px;
+  height: 120px;
+}
+
+.title {
+  display: block;
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background: #ddd;
+}
+</style>
+
+
+    </head>
+    
+    <body>
+        <header>
+            <div class="nav area">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li><a href="consulting.html">Consulting</a></li>
+                    <li><a href="Ebus1.html">eBusiness</a></li>
+                </ul>
+            </div>
+            <br />
+            <div id="container"> 
+                <ul id="imgs">
+                  <li><img src="https://d2cx26qpfwuhvu.cloudfront.net/irfu/wp-content/uploads/2019/09/05115438/RoryBest_Anthems_EnglandAug2019-1248x832.jpg" alt="" /></li>
+                  <li><img src="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/7/2019/09/GettyImages-1178536459.jpg" alt="" /></li>
+                  <li><img src="https://www.irishtimes.com/polopoly_fs/1.3815262.1551804599!/image/image.jpg_gen/derivatives/box_620_330/image.jpg" alt="" /></li>
+                  <li><img src="https://d2d0b2rxqzh1q5.cloudfront.net/sv/2.183/dir/d38/image/d38f79090a92ff01edbb9bbf2a47e3dc.jpg" alt="" /></li>
+                  <li><img src="https://www.gpone.com/sites/default/files/styles/article_big_breakpoints_theme_bootstrap_screen-lg-min_1x/public/images/2019/article/foto/11/MotoGP/Jerez-Test-day2/rossi-rain-1574852444.jpg?itok=2Bf4xYwO&timestamp=1574852444" alt="" /></li>
+                  <li><img src="https://fabps.com/wp-content/uploads/sites/299/2018/08/best-beaches-in-marbella-1080x675.jpeg" alt="" /></li>
+                  <li><img src="https://fabps.com/wp-content/uploads/sites/299/2017/01/1.jpg" alt="" /></li>
+                  <li><img src="https://www.crystalski.ie/static/img/article/header/ski-areas-ski-welt.jpg" alt="" /></li>
+                  <li><img src="https://content.tui.co.uk/adamtui/2017_7/11_17/699fc063-040f-47db-81f9-a7ad0126b04c/AUS_NAS_F0024WebOriginalCompressed.jpg?i10c=img.resize(width:658);img.crop(width:658%2Cheight:370)" alt="" /></li>
+                </ul>
+                <span class="title"></span> </div>
+              <div id="controler"> </div>
+              <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+              <script type="text/javascript" src="lib/ImageScroll.js"></script> 
+              <script type="text/javascript">
+              
+                $('#imgs').imageScroll({
+                  orientation:"left",
+                  speed:600,
+                  interval:1000,
+                  hoverPause:true,
+                  callback:function(){
+                    var ordinal = $(this).find("img").first().attr("src");
+                    <!-- console.log(ordinal); -->
+                   
+                  }
+                });
+              
+                </script><script type="text/javascript">
+              
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-36251023-1']);
+                _gaq.push(['_setDomainName', 'jqueryscript.net']);
+                _gaq.push(['_trackPageview']);
+              
+                (function() {
+                  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+              
+              </script>
+            <br><br>
+            <center>
+            <h2 style = color:white;><b>Sports</b></h2>
+            <br>
+            <h4 style = color:white;>Rugby</h4>
+            <p style = color:white;>I have played rugby since I was 6 years old.</p>
+            <p style = color:white;>I played with Cork Constitution and Christian Brothers College.</p>
+            <p style = color:white;>During my career I have won numerous trophies and competitions.</p>
+            <p style = color:white;>I enjoy watching matches and attend as many Munster and Ireland games as I can.</p>
+            <br>
+            <h4 style = color:white;>Motor Sport</h4>
+            <p style = color:white;>I am a huge fan of Formula 1 and Moto GP.</p>
+            <p style = color:white;>Every weekend I watch the Grand Prix</p>
+            <p style = color:white;>It is my dream to become a professional driver</p>
+            <br><br>
+            <h2 style = color:white;><b>Travel</b></h2>
+            <br>
+            <h4 style = color:white;>Spain</h4>
+            <p style = color:white;>Spain is my favourite holiday destination</p>
+            <p style = color:white;>I go here every year</p>
+            <p style = color:white;>It is a beautiful country</p>
+            <br>
+            <h4 style = color:white;>Austria</h4>
+            <p style = color:white;>Austria is where i went skiing</p>
+            <p style = color:white;>It has a mountainous landscape which is perfect for skiing</p>
+            <p style = color:white;>My holiday to Austria was the best holiday I ever had</p>
+
+        </center>
+        </header>
+        
+
+       
+
+
+
+    </body>
+
+</html>
